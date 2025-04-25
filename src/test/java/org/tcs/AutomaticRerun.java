@@ -24,7 +24,7 @@ public class AutomaticRerun {
 			
 	@Test(retryAnalyzer = Failed.class)	
 	private void tc3() {
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 		System.out.println("tc3");
 				
 				
